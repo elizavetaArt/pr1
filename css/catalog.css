@@ -1,0 +1,232 @@
+#urls p{
+    margin: 18px 50px;
+    font-size: 20px;
+}
+#urls a {
+    color: #000000;
+}
+#m-p-catalog {
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    height: 100%;
+}
+#m-p-sel {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1800px;
+    min-width: 320px;
+    text-align: center;
+}
+#m-p-select_mar, #m-p-select_tun {
+    height: 40px;
+    width: 430px;
+    font-size: 15px;
+    color: #000000;
+    margin: 0 30px;
+}
+
+.option {
+    width: 30px;
+}
+#m-p-catalog__select-mark {
+    width: 18%;
+    margin-left: 65px;
+}
+#m-p-catalog__catalog {
+    width: 64%;
+    display: flex;
+}
+#m-p-catalog__select-tuning {
+    width: 18%;
+    margin-right: 5px;
+}
+.m-spare-part {
+    display: inline-block;
+    margin: 0 -18px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.m-view {
+    width: 180px;
+    height: 248px;
+    margin: 20px 20px;
+    border: 1.5px solid #a5a5a5;
+    display: inline-block;
+}
+.m-view:hover {
+    background: #aaaaaa;
+    transition: 1s;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.m-view p {
+    text-align: center;
+    margin: 20px 5px;
+    z-index: 152;
+    font-weight: 500;
+}
+.m-view a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+#m-p-catalog__select-tuning ul, #m-p-catalog__select-mark ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 24px;
+}
+#m-p-catalog__select-tuning li, #m-p-catalog__select-mark li {
+    width: 200px;
+    font-size: 20px;
+    border-style: solid; border-width: 1.5px; border-color: #959595 #eeeeee #eeeeee #eeeeee;
+}
+.m-image {
+    width: 167px;
+    height: 105px;
+    border: 1.5px solid #da7c20;
+    margin: 5px 5px;
+}
+.m-image img {
+    width: 100%;
+    height: 100%;
+
+}
+.m-image img:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    transition: 1s;
+}
+
+@media all and (max-width: 1440px){
+    #m-p-catalog__select-mark {
+        width: 18%;
+        margin-left: 25px;
+    }
+    #m-p-catalog__select-tuning {
+        width: 18%;
+        margin-right: 25px;
+    }
+    #m-p-catalog {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    #m-p-catalog__catalog {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .m-view {
+        margin: 20px 6px ;
+    }
+    .m-spare-part {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .m-view {
+        display: inline-block;
+    }
+}
+@media all and (max-width: 1400px){
+    #m-p-catalog {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    #m-p-catalog__catalog {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .m-view {
+        margin: 20px 6px ;
+    }
+    .m-spare-part {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .m-view {
+        display: inline-block;
+    }
+}
+@media all and (max-width: 1300px){
+    #m-p-catalog__select-tuning, #m-p-catalog__select-mark {
+        display: none;
+    }
+    #m-p-catalog {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    #m-p-catalog__catalog {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    .m-view {
+        margin: 20px 30px;
+        display: inline-block;
+    }
+    .m-spare-part {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    #m-p-sel {
+        display: block;
+    }
+}
+@media all and (max-width: 990px){
+    #m-p-select_mar, #m-p-select_tun {
+        width: 330px;
+        margin: 0 7px;
+    }
+}
+@media all and (max-width: 800px){
+    #urls p{
+        margin: 12px 30px;
+        font-size: 18px;
+    }
+    #m-p-select_mar, #m-p-select_tun {
+        width: 300px;
+        margin: 0 7px;
+    }
+}
+@media all and (max-width: 700px){
+    #m-p-select_mar, #m-p-select_tun {
+        width: 430px;
+        margin: 5px 7px;
+    }
+}
+@media all and (max-width: 500px){
+    #m-p-sel {
+        margin: 10px auto;
+    }
+    #urls p{
+        margin: 0 35px;
+        font-size: 17px;
+    }
+    #m-p-select_mar, #m-p-select_tun {
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

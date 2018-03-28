@@ -1,0 +1,260 @@
+.mgrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-item input{
+    width: 100% !important;
+    font-size: 19px;
+    padding: 2px 0;
+}
+.grid-item:first-child{
+    margin-right: 10px;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-size: 17px;
+    padding: 4px 5px;
+    font-family: "Open Sans", sans-serif;
+}
+input:focus, button:focus, button:active {
+    outline: none;
+}
+#urls p{
+    margin: 16px 50px;
+    font-size: 20px;
+}
+#urls a {
+    color: #000000;
+}
+#main-blog {
+    width: 98%;
+    height: 100%;
+    background: #fdfdfd;
+    margin: 0 15px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+#blogs {
+    margin: 0 100px;
+    padding:  7px 0;
+    color: #da7c20;
+    font-size: 22px;
+    font-weight: 400;
+}
+#blogs h1 {
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+#blogs p {
+    font-size: 20px;
+    color: #000000;
+}
+#blog_zap {
+    display: flex;
+    float: left;
+    width: 50%;
+}
+#p_info {
+    text-align: justify;
+}
+#p_info a {
+    text-decoration: none;
+    color: #da7c20;
+    font-size: 20px;
+}
+#blogs img {
+    width: 600px;
+    height: 380px;
+    margin-bottom: 15px;
+}
+#form-sub {
+    display: block;
+    padding: 0 100px;
+}
+#form-sub #forms input {
+    width: 638px;
+    margin: 0;
+    height: 30px;
+}
+textarea {
+    width:100% !important;
+    margin: 4px 0;
+    height: 140px;
+    font-size: 17px;
+    padding: 2px 0;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+}
+#submit {
+    width: 180px;
+    height: 35px;
+    border: none;
+    background: #da7c20;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+#image img {
+    margin: -7px 0;
+}
+
+@media all and (max-width: 1440px){
+    #blogs img {
+        width: 550px;
+        height: 325px;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 1400px){
+    #blogs img {
+        width: 500px;
+        height: 300px;
+    }
+}
+@media all and (max-width: 1300px){
+    #blogs img {
+        width: 470px;
+        height: 280px;
+    }
+}
+@media all and (max-width: 1200px){
+    #blogs img {
+        width: 425px;
+        height: 250px;
+    }
+    #urls p{
+        margin: 10px 50px;
+        font-size: 22px;
+    }
+    #main-blog {
+        margin: 0 10px;
+    }
+}
+@media all and (max-width: 1100px){
+    #blogs img {
+        width: 375px;
+        height: 220px;
+    }
+    #blog_zap {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #blogs h1:first-child {
+        text-align: center;
+    }
+    #blogs {
+        margin: 0 55px;
+    }
+    #form-sub {
+        padding: 0 55px;
+    }
+}
+@media all and (max-width: 800px){
+    #main-blog {
+        margin: 0 8px;
+    }
+    #urls p{
+        margin: 10px 30px;
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 600px){
+    #blogs img {
+        width: 310px;
+        height: 170px;
+    }
+    #blogs h1:first-child {
+        font-size: 20px;
+    }
+    #p_info p {
+        font-size: 17px;
+    }
+    #blogs {
+        margin: 0 45px;
+    }
+    #form-sub {
+        padding: 0 45px;
+    }
+    .menu__icon {
+        display: block;
+    }
+    #main-blog {
+        margin: 0 6px;
+    }
+    #urls p{
+        margin: 0 30px 10px 30px;
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 500px){
+    #blogs img {
+        width: 290px;
+        height: 140px;
+    }
+    #blogs h1:first-child {
+        font-size: 20px;
+    }
+    #p_info p {
+        font-size: 17px;
+    }
+    #blogs {
+        margin: 0 50px;
+    }
+    #form-sub {
+        padding: 0 50px;
+    }
+    #main-blog {
+        margin: 0 5px;
+    }
+    #urls p{
+        margin: 0 30px 10px 30px;
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 400px){
+    #blogs img {
+        width: 250px;
+        height: 120px;
+    }
+    #blogs h1:first-child {
+        font-size: 20px;
+    }
+    #p_info p {
+        font-size: 17px;
+    }
+    #blogs {
+        margin: 0 40px;
+    }
+    #form-sub {
+        padding: 0 40px;
+    }
+    #main-blog {
+        margin: 0 7px;
+    }
+}
+@media all and (max-width: 360px){
+    #blogs img {
+        width: 200px;
+        height: 90px;
+    }
+    #blogs h1:first-child {
+        font-size: 20px;
+    }
+    #p_info p {
+        font-size: 17px;
+    }
+    #blogs {
+        margin: 15px 30px;
+    }
+    #form-sub {
+        padding: 0 30px;
+    }
+    #main-blog {
+        margin: 0 4px;
+    }
+    #urls p{
+        margin: 0 20px;
+        font-size: 14px;
+    }
+}
+
+
